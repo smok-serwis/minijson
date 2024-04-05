@@ -18,7 +18,7 @@ are supported.
 Note
 ====
 
-Active development of minijson is moved to this fork.
+Active development of **minijson** is moved to this fork.
 [Dronehub](https://github.com/Dronehub) has no interest in further developing this awesome technology.
 
 Usage

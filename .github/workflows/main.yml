@@ -23,6 +23,8 @@ jobs:
           wget https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
           chmod ugo+x test-reporter-latest-linux-amd64
           ./test-reporter-latest-linux-amd64 before-build
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
       - name: Test
         run: |
           python setup.py install
@@ -35,3 +37,5 @@ jobs:
           ./test-reporter-latest-linux-amd64 after-build -t coverage.py
           ./test-reporter-latest-linux-amd64 format-coverage -t coverage.py -o codeclimate.json
           ./test-reporter-latest-linux-amd64 upload-coverage -i codeclimate.json
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
