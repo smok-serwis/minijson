@@ -1,7 +1,7 @@
 MiniJSON
 ========
 
-[![MiniJSON](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)](https://github.com/smok-serwis/minijson)
+![Passing CI](https://github.com/smok-serwis/minijson/actions/workflows/main.yml/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/20392a075de646680403/maintainability)](https://codeclimate.com/github/smok-serwis/minijson/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/20392a075de646680403/test_coverage)](https://codeclimate.com/github/smok-serwis/minijson/test_coverage)
 [![Issue Count](https://codeclimate.com/github/smok-serwis/minijson/badges/issue_count.svg)](https://codeclimate.com/github/smok-serwis/minijson)
@@ -19,7 +19,7 @@ Note
 ====
 
 Active development of minijson is moved to this fork.
-Dronehub has no interest in further developing this awesome technology.
+[Dronehub](https://github.com/Dronehub) has no interest in further developing this awesome technology.
 
 Usage
 -----
