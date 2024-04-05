@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v3.0.1
+------
+
+Just PyPI readme notes
+
 v3.0
 ----
 
