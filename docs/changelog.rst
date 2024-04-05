@@ -1,7 +1,7 @@
 Changelog
 =========
 
-v1.3
+v3.0
 ----
 
 * switched to GitHub Actions for CI/CD
