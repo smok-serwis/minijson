@@ -17,7 +17,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y python3-setuptools python3-yaml python3-dev
-          pip install -U pip pytest coverage pytest-cov Cython
+          pip install -U pip pytest coverage pytest-cov Cython setuptools
           python setup.py install
       - name: Test
         run: pytest
