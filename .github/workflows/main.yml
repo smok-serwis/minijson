@@ -24,7 +24,9 @@ jobs:
           chmod ugo+x test-reporter-latest-linux-amd64
           ./test-reporter-latest-linux-amd64 before-build
       - name: Test
-        run: coverage run setup.py test
+        run: |
+          python setup.py install
+          pytest -vv --cov=minijson
         env:
           DEBUG: '1'
       - name: Submit the code coverage
