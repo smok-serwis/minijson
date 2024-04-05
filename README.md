@@ -12,14 +12,15 @@ MiniJSON
 [![PyPI](https://img.shields.io/pypi/wheel/minijson.svg)]()
 [![License](https://img.shields.io/pypi/l/minijson)](https://github.com/smok-serwis/minijson)
 
-MiniJSON is a codec for a compact binary representation of a superset of JSON (binary values)
-are supported.
+MiniJSON is a codec for a compact binary representation of a superset of JSON
+(binary values) are supported.
 
 Note
-====
+----
 
 Active development of **minijson** is moved to this fork.
-[Dronehub](https://github.com/Dronehub) has no interest in further developing this awesome technology.
+[Dronehub](https://github.com/Dronehub) has no interest in further developing this awesome
+technology.
 
 Usage
 -----
@@ -33,6 +34,10 @@ Alternatively, you can
 [file an issue](https://github.com/Dronehub/minijson/issues/new)
 and I'll do my best to compile a wheel for you.
 
-In order to do that you must have `Cython` installed.
+Compiling own wheels
+--------------------
+
+If there's no wheel, and you'd like to compile it on your own, you'll
+require [Cython](https://cython.org/) installed.
 
 Run the Dockerfile to launch unit tests locally.
