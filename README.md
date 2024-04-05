@@ -31,7 +31,7 @@ for use.
 If there are no binary wheels precompiled for this platform, you will need to
 compile it yourself.
 Alternatively, you can
-[file an issue](https://github.com/Dronehub/minijson/issues/new)
+[file an issue](https://github.com/smok-serwis/minijson/issues/new)
 and I'll do my best to compile a wheel for you.
 
 Compiling own wheels
