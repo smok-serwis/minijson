@@ -88,4 +88,4 @@ build_python311:
 
 build_python311_armv7l:
   extends: .build_python
-  image: zoo.smok.co/build/build:armv7l-python311
+  image: zoo.smok.co/build/build:armv7l-python3.11
