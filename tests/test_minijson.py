@@ -1,11 +1,19 @@
+import json
 import typing as tp
 import unittest
+import gzip
 
 from minijson import dumps, loads, dumps_object, loads_object, EncodingError, DecodingError, \
     switch_default_double, switch_default_float, MiniJSONEncoder
 
 
 class TestMiniJSON(unittest.TestCase):
+
+    def test_gzip_competition(self):
+        a = {'test': [1, 2, 3], 'bagietka': 'bagietka'}
+        b = dumps(a)
+        c = gzip.compress(json.dumps(a).encode(('utf-8')))
+        self.assertLess(len(b), len(c))
 
     def test_encoder_strict_output(self):
         enc = MiniJSONEncoder(use_strict_order=True)

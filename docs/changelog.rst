@@ -4,7 +4,8 @@ Changelog
 v3.1.0
 ------
 
-Moved entirely to SMOKs' build architecture.
+* Moved entirely to SMOKs' build architecture.
+* support for Python 3.7 and 3.6 dropped
 
 v3.0.1
 ------

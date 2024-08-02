@@ -1,11 +1,10 @@
 MiniJSON
 ========
 
-![Passing CI](https://github.com/smok-serwis/minijson/actions/workflows/main.yml/badge.svg)
+[![Build status](https://git.dms-serwis.com.pl/smokserwis/minijson/badges/master/pipeline.svg)](https://git.dms-serwis.com.pl/smokserwis/minijson)
+[![coverage report](https://git.dms-serwis.com.pl/smokserwis/minijson/badges/master/coverage.svg)](https://git.dms-serwis.com.pl/smokserwis/minijson/-/commits/develop)
 [![Maintainability](https://api.codeclimate.com/v1/badges/20392a075de646680403/maintainability)](https://codeclimate.com/github/smok-serwis/minijson/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/20392a075de646680403/test_coverage)](https://codeclimate.com/github/smok-serwis/minijson/test_coverage)
 [![Issue Count](https://codeclimate.com/github/smok-serwis/minijson/badges/issue_count.svg)](https://codeclimate.com/github/smok-serwis/minijson)
-[![Documentation Status](https://readthedocs.org/projects/minijson/badge/?version=latest)](http://minijson.readthedocs.io/en/latest/?badge=latest)
 [![PyPI](https://img.shields.io/pypi/pyversions/minijson.svg)](https://pypi.python.org/pypi/minijson)
 [![PyPI version](https://badge.fury.io/py/minijson.svg)](https://badge.fury.io/py/minijson)
 [![PyPI](https://img.shields.io/pypi/implementation/minijson.svg)](https://pypi.python.org/pypi/minijson)

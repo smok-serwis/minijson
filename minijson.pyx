@@ -9,14 +9,17 @@ class MiniJSONError(ValueError):
 
     Note that it inherits from :code:`ValueError`.
     """
+    pass
 
 
 class EncodingError(MiniJSONError):
     """Error during encoding"""
+    pass
 
 
 class DecodingError(MiniJSONError):
     """Error during decoding"""
+    pass
 
 
 cdef:

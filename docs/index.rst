@@ -28,6 +28,10 @@ is anyway invalid JSON_.
 
 .. _JSON: https://www.w3schools.com/js/js_json_objects.asp
 
+.. note::
+
+    Now I can officially state that minijson is better than same data exported to
+    JSON and encoded with best gzip. Enjoy!
 
 Indices and tables
 ==================
