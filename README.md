@@ -1,7 +1,7 @@
 MiniJSON
 ========
 
-Further development of MiniJSON has been moved to [our servers](https://git.dms-serwis.com.pl/public/minijson).
+Further development of MiniJSON has been moved to [our servers](https://git.dms-serwis.com.pl/smokserwis/minijson).
 
 ![Passing CI](https://github.com/smok-serwis/minijson/actions/workflows/main.yml/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/20392a075de646680403/maintainability)](https://codeclimate.com/github/smok-serwis/minijson/maintainability)
