@@ -6,8 +6,8 @@ pages:
   stage: build
   image: zoo.smok.co/build/build:pages
   before_script:
-    - pip install --upgrade Cython setuptools pip
-    - pip install -r requirements.txt
+    - pip install --break-system-packages --upgrade Cython setuptools pip
+    - pip install --break-system-packages -r requirements.txt
     - python setup.py build_ext --inplace
   script:
     - cd docs
@@ -24,7 +24,7 @@ pages:
     - pip install -r requirements.txt
     - python setup.py build_ext --inplace
   variables:
-    CI: "1"
+    TESTING: "1"
   script:
     - python -m coverage run -m nose2 -vv -F
     - python -m coverage report

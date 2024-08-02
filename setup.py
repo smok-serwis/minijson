@@ -10,7 +10,7 @@ from setuptools import setup, Extension
 directive_defaults = get_directive_defaults()
 directive_defaults['language_level'] = '3'
 macros = []
-if 'DEBUG' in os.environ or 'CI' in os.environ:
+if 'TESTING' in os.environ:
     print('Enabling debug mode')
     directive_defaults['linetrace'] = True
     directive_defaults['profiling'] = True
