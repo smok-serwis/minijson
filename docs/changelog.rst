@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v3.1.0
+------
+
+Moved entirely to SMOKs' build architecture.
+
 v3.0.1
 ------
 
