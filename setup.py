@@ -15,7 +15,9 @@ if 'TESTING' in os.environ:
     directive_defaults['linetrace'] = True
     directive_defaults['profiling'] = True
     directive_defaults['binding'] = True
-    macros = [('CYTHON_TRACE', '1'), ('CYTHON_TRACE_NOGIL', '1')]
+    macros = [('CYTHON_TRACE_NOGIL', '1')]
 
 
-setup(ext_modules=cythonize([Extension("minijson", ["minijson.pyx"], define_macros=macros)]))
+setup(ext_modules=cythonize([Extension("minijson", ["minijson.pyx"], define_macros=macros)],
+                            compiler_directives=directive_defaults
+                            ))

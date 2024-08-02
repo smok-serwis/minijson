@@ -6,16 +6,19 @@ pages:
   stage: build
   image: zoo.smok.co/build/build:pages
   before_script:
-    - pip install --break-system-packages --upgrade Cython setuptools pip
-    - pip install --break-system-packages -r requirements.txt
-    - python setup.py build_ext --inplace
+    - pip3 install --break-system-packages --upgrade Cython setuptools pip
+    - pip3 install --break-system-packages -r requirements.txt
+    - python3 setup.py build_ext --inplace
   script:
     - cd docs
     - make html
-    - cp _build/html public
+    - mv _build/html ../public
   artifacts:
     paths:
       - "public"
+  only:
+    - master
+  needs: []
 
 .test_python:
   stage: test
