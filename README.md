@@ -17,6 +17,8 @@ Further development of MiniJSON has been moved to [our servers](https://git.dms-
 MiniJSON is a codec for a compact binary representation of a superset of JSON
 (binary values) are supported.
 
+Note that source builds are submitted to [PyPI](https://pypi.python.org/pypi/minijson), however in order to leverage binary wheels you should use `--index-url https://git.dms-serwis.com.pl/api/v4/groups/330/-/packages/pypi/simple`.
+
 Note
 ----
 
